@@ -39,7 +39,11 @@ class ProgressBar {
 				minimizable: false,
 				maximizable: false,
 				width: 500,
-				height: 170
+				height: 170,
+				webPreferences: {
+					nodeIntegration: true,
+					nodeIntegrationInWorker: true
+				}
 			}
 		};
 		
