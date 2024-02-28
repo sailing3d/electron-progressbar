@@ -1,11 +1,10 @@
 {
-  "name": "electron-progressbar",
+  "name": "@sailing3d/electron-progressbar",
   "version": "1.2.0",
   "description": "Progress bar component for Electron applications",
   "main": "source/index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/AndersonMamede/electron-progressbar.git"
+  "publishConfig": {
+    "registry": "http://10.31.10.1:8081/repository/npm-hosted/"
   },
   "keywords": [
     "electron",
